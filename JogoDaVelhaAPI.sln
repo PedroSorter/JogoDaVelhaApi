@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jogo_da_velha.presentation", "JogoDaVelhaAPI\jogo_da_velha.presentation.csproj", "{4D0BFFD5-2588-406F-8BB6-FEE1F6ECBBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jogo_da_velha.domain", "jogo_da_velha.domain\jogo_da_velha.domain.csproj", "{0D87FCF3-722C-40A2-B9A7-F909B706584A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jogo_da_velha.infraestrutura", "jogo_da_velha.infraestrutura\jogo_da_velha.infraestrutura.csproj", "{750F6AC9-F60F-4AE6-87BA-B0E194210F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jogo_da_velha.crosscutting", "jogo_da_velha.crosscutting\jogo_da_velha.crosscutting.csproj", "{AF04CAF8-9D76-41E6-B1A8-604DCC7E69CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jogo_da_velha.tests", "jogo_da_velha.tests\jogo_da_velha.tests.csproj", "{C8EABC53-B0B1-4D8D-93A7-A36283273B68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0BFFD5-2588-406F-8BB6-FEE1F6ECBBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0BFFD5-2588-406F-8BB6-FEE1F6ECBBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0BFFD5-2588-406F-8BB6-FEE1F6ECBBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0BFFD5-2588-406F-8BB6-FEE1F6ECBBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D87FCF3-722C-40A2-B9A7-F909B706584A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D87FCF3-722C-40A2-B9A7-F909B706584A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D87FCF3-722C-40A2-B9A7-F909B706584A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D87FCF3-722C-40A2-B9A7-F909B706584A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750F6AC9-F60F-4AE6-87BA-B0E194210F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750F6AC9-F60F-4AE6-87BA-B0E194210F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750F6AC9-F60F-4AE6-87BA-B0E194210F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750F6AC9-F60F-4AE6-87BA-B0E194210F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF04CAF8-9D76-41E6-B1A8-604DCC7E69CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF04CAF8-9D76-41E6-B1A8-604DCC7E69CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF04CAF8-9D76-41E6-B1A8-604DCC7E69CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF04CAF8-9D76-41E6-B1A8-604DCC7E69CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EABC53-B0B1-4D8D-93A7-A36283273B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EABC53-B0B1-4D8D-93A7-A36283273B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EABC53-B0B1-4D8D-93A7-A36283273B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EABC53-B0B1-4D8D-93A7-A36283273B68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {360C4045-E5B9-4947-817D-FD6D01FBF325}
+	EndGlobalSection
+EndGlobal
