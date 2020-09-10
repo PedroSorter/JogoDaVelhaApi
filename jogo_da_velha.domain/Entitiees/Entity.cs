@@ -4,7 +4,7 @@ using System;
 
 namespace jogo_da_velha.domain
 {
-  public abstract class Entity
+  public abstract class Entity : Notifiable
   {
     public Entity()
     {

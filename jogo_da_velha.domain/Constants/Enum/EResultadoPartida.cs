@@ -4,6 +4,7 @@
   {
     Empate = 0,
     X = 1,
-    Y= 2
+    Y= 2,
+    EmCurso = 3
   }
 }
